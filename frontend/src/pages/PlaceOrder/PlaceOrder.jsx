@@ -18,7 +18,7 @@ const PlaceOrder = () => {
    // state: "",
    // zipcode: "",
    // country: "",
-    phone: "",
+    modify: "",
   });
 
   const onChangeHandler = (event) => {
@@ -138,11 +138,11 @@ const PlaceOrder = () => {
         </div> */}
         <input
           required
-          name="phone"
+          name="modify"
           onChange={onChangeHandler}
-          value={data.phone}
+          value={data.modify}
           type="text"
-          placeholder="Phone"
+          placeholder="Your Extras"
         />
       </div>
       <div className="place-order-right">
